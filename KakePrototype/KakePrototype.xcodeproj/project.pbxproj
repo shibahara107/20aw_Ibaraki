@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F91373D3A92CBD641D67BC2 /* Pods_KakePrototype_KakePrototypeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E2D3D2EF8D04F02F0266EA /* Pods_KakePrototype_KakePrototypeUITests.framework */; };
+		B961F2C293AB7DD896A82A5C /* Pods_KakePrototypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD06402F8EECE916ABA1707C /* Pods_KakePrototypeTests.framework */; };
 		D1B1D89F25D0F4BE00173099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1D89E25D0F4BE00173099 /* AppDelegate.swift */; };
 		D1B1D8A125D0F4BE00173099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1D8A025D0F4BE00173099 /* SceneDelegate.swift */; };
-		D1B1D8A325D0F4BE00173099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1D8A225D0F4BE00173099 /* ViewController.swift */; };
 		D1B1D8A625D0F4BE00173099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B1D8A425D0F4BE00173099 /* Main.storyboard */; };
 		D1B1D8A825D0F4C000173099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B1D8A725D0F4C000173099 /* Assets.xcassets */; };
 		D1B1D8AB25D0F4C000173099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B1D8A925D0F4C000173099 /* LaunchScreen.storyboard */; };
 		D1B1D8B625D0F4C000173099 /* KakePrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1D8B525D0F4C000173099 /* KakePrototypeTests.swift */; };
 		D1B1D8C125D0F4C000173099 /* KakePrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1D8C025D0F4C000173099 /* KakePrototypeUITests.swift */; };
+		D1B1D8DA25D0F80600173099 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1D8D925D0F80600173099 /* Food.swift */; };
+		D1B1DA0725D0FA8800173099 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DA0625D0FA8800173099 /* RealmService.swift */; };
+		D1B1DA0C25D0FAD100173099 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DA0B25D0FAD100173099 /* AddViewController.swift */; };
+		D1B1DA1425D0FD0F00173099 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DA1325D0FD0F00173099 /* ListViewController.swift */; };
+		D1B1DA1925D0FE7F00173099 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DA1825D0FE7F00173099 /* ListTableViewCell.swift */; };
+		DFDF2A8AD4BD9E5927C26C22 /* Pods_KakePrototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099E8AFD6A8372C5CABADCC8 /* Pods_KakePrototype.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099E8AFD6A8372C5CABADCC8 /* Pods_KakePrototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakePrototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3181C293349060250C9E808F /* Pods-KakePrototypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakePrototypeTests.release.xcconfig"; path = "Target Support Files/Pods-KakePrototypeTests/Pods-KakePrototypeTests.release.xcconfig"; sourceTree = "<group>"; };
+		522D0840F6C597B4D61EFEC5 /* Pods-KakePrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakePrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-KakePrototypeTests/Pods-KakePrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6272BAFACB5EBE0A3BA1E230 /* Pods-KakePrototype-KakePrototypeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakePrototype-KakePrototypeUITests.release.xcconfig"; path = "Target Support Files/Pods-KakePrototype-KakePrototypeUITests/Pods-KakePrototype-KakePrototypeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		747C3EA26658FADD8AD2098B /* Pods-KakePrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakePrototype.debug.xcconfig"; path = "Target Support Files/Pods-KakePrototype/Pods-KakePrototype.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E2D3D2EF8D04F02F0266EA /* Pods_KakePrototype_KakePrototypeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakePrototype_KakePrototypeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD06402F8EECE916ABA1707C /* Pods_KakePrototypeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakePrototypeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B1D89B25D0F4BE00173099 /* KakePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B1D89E25D0F4BE00173099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1B1D8A025D0F4BE00173099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1B1D8A225D0F4BE00173099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1B1D8A525D0F4BE00173099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1B1D8A725D0F4C000173099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1B1D8AA25D0F4C000173099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,13 @@
 		D1B1D8BC25D0F4C000173099 /* KakePrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakePrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B1D8C025D0F4C000173099 /* KakePrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakePrototypeUITests.swift; sourceTree = "<group>"; };
 		D1B1D8C225D0F4C000173099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B1D8D925D0F80600173099 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		D1B1DA0625D0FA8800173099 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		D1B1DA0B25D0FAD100173099 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		D1B1DA1325D0FD0F00173099 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D1B1DA1825D0FE7F00173099 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		F26CEC151AAA10657E9C417A /* Pods-KakePrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakePrototype.release.xcconfig"; path = "Target Support Files/Pods-KakePrototype/Pods-KakePrototype.release.xcconfig"; sourceTree = "<group>"; };
+		F4840C5D57B8D1542DA7C781 /* Pods-KakePrototype-KakePrototypeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakePrototype-KakePrototypeUITests.debug.xcconfig"; path = "Target Support Files/Pods-KakePrototype-KakePrototypeUITests/Pods-KakePrototype-KakePrototypeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDF2A8AD4BD9E5927C26C22 /* Pods_KakePrototype.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B961F2C293AB7DD896A82A5C /* Pods_KakePrototypeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F91373D3A92CBD641D67BC2 /* Pods_KakePrototype_KakePrototypeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		308A4B08367D76889D396045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099E8AFD6A8372C5CABADCC8 /* Pods_KakePrototype.framework */,
+				B2E2D3D2EF8D04F02F0266EA /* Pods_KakePrototype_KakePrototypeUITests.framework */,
+				BD06402F8EECE916ABA1707C /* Pods_KakePrototypeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		903175103476B2ACC4538CBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				747C3EA26658FADD8AD2098B /* Pods-KakePrototype.debug.xcconfig */,
+				F26CEC151AAA10657E9C417A /* Pods-KakePrototype.release.xcconfig */,
+				F4840C5D57B8D1542DA7C781 /* Pods-KakePrototype-KakePrototypeUITests.debug.xcconfig */,
+				6272BAFACB5EBE0A3BA1E230 /* Pods-KakePrototype-KakePrototypeUITests.release.xcconfig */,
+				522D0840F6C597B4D61EFEC5 /* Pods-KakePrototypeTests.debug.xcconfig */,
+				3181C293349060250C9E808F /* Pods-KakePrototypeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D1B1D89225D0F4BE00173099 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				D1B1D8B425D0F4C000173099 /* KakePrototypeTests */,
 				D1B1D8BF25D0F4C000173099 /* KakePrototypeUITests */,
 				D1B1D89C25D0F4BE00173099 /* Products */,
+				903175103476B2ACC4538CBD /* Pods */,
+				308A4B08367D76889D396045 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +149,11 @@
 			children = (
 				D1B1D89E25D0F4BE00173099 /* AppDelegate.swift */,
 				D1B1D8A025D0F4BE00173099 /* SceneDelegate.swift */,
-				D1B1D8A225D0F4BE00173099 /* ViewController.swift */,
+				D1B1D8D925D0F80600173099 /* Food.swift */,
+				D1B1DA0625D0FA8800173099 /* RealmService.swift */,
+				D1B1DA0B25D0FAD100173099 /* AddViewController.swift */,
+				D1B1DA1325D0FD0F00173099 /* ListViewController.swift */,
+				D1B1DA1825D0FE7F00173099 /* ListTableViewCell.swift */,
 				D1B1D8A425D0F4BE00173099 /* Main.storyboard */,
 				D1B1D8A725D0F4C000173099 /* Assets.xcassets */,
 				D1B1D8A925D0F4C000173099 /* LaunchScreen.storyboard */,
@@ -135,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1B1D8C525D0F4C000173099 /* Build configuration list for PBXNativeTarget "KakePrototype" */;
 			buildPhases = (
+				9E69BB5AA3AB2DC8C504EF0E /* [CP] Check Pods Manifest.lock */,
 				D1B1D89725D0F4BE00173099 /* Sources */,
 				D1B1D89825D0F4BE00173099 /* Frameworks */,
 				D1B1D89925D0F4BE00173099 /* Resources */,
+				97D0B0273A1887B6727EC3C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1B1D8C825D0F4C000173099 /* Build configuration list for PBXNativeTarget "KakePrototypeTests" */;
 			buildPhases = (
+				C706F4C76515DA946B338A49 /* [CP] Check Pods Manifest.lock */,
 				D1B1D8AD25D0F4C000173099 /* Sources */,
 				D1B1D8AE25D0F4C000173099 /* Frameworks */,
 				D1B1D8AF25D0F4C000173099 /* Resources */,
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1B1D8CB25D0F4C000173099 /* Build configuration list for PBXNativeTarget "KakePrototypeUITests" */;
 			buildPhases = (
+				8F236F05B80A10FD74548050 /* [CP] Check Pods Manifest.lock */,
 				D1B1D8B825D0F4C000173099 /* Sources */,
 				D1B1D8B925D0F4C000173099 /* Frameworks */,
 				D1B1D8BA25D0F4C000173099 /* Resources */,
+				728357A48BB70F0CAAFB38BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +310,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		728357A48BB70F0CAAFB38BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakePrototype-KakePrototypeUITests/Pods-KakePrototype-KakePrototypeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakePrototype-KakePrototypeUITests/Pods-KakePrototype-KakePrototypeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakePrototype-KakePrototypeUITests/Pods-KakePrototype-KakePrototypeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F236F05B80A10FD74548050 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakePrototype-KakePrototypeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D0B0273A1887B6727EC3C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakePrototype/Pods-KakePrototype-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakePrototype/Pods-KakePrototype-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakePrototype/Pods-KakePrototype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E69BB5AA3AB2DC8C504EF0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakePrototype-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C706F4C76515DA946B338A49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakePrototypeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1B1D89725D0F4BE00173099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B1D8A325D0F4BE00173099 /* ViewController.swift in Sources */,
+				D1B1DA1925D0FE7F00173099 /* ListTableViewCell.swift in Sources */,
+				D1B1D8DA25D0F80600173099 /* Food.swift in Sources */,
+				D1B1DA0C25D0FAD100173099 /* AddViewController.swift in Sources */,
+				D1B1DA1425D0FD0F00173099 /* ListViewController.swift in Sources */,
 				D1B1D89F25D0F4BE00173099 /* AppDelegate.swift in Sources */,
 				D1B1D8A125D0F4BE00173099 /* SceneDelegate.swift in Sources */,
+				D1B1DA0725D0FA8800173099 /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +597,7 @@
 		};
 		D1B1D8C625D0F4C000173099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747C3EA26658FADD8AD2098B /* Pods-KakePrototype.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +617,7 @@
 		};
 		D1B1D8C725D0F4C000173099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26CEC151AAA10657E9C417A /* Pods-KakePrototype.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +637,7 @@
 		};
 		D1B1D8C925D0F4C000173099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522D0840F6C597B4D61EFEC5 /* Pods-KakePrototypeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +660,7 @@
 		};
 		D1B1D8CA25D0F4C000173099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3181C293349060250C9E808F /* Pods-KakePrototypeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +683,7 @@
 		};
 		D1B1D8CC25D0F4C000173099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4840C5D57B8D1542DA7C781 /* Pods-KakePrototype-KakePrototypeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +704,7 @@
 		};
 		D1B1D8CD25D0F4C000173099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6272BAFACB5EBE0A3BA1E230 /* Pods-KakePrototype-KakePrototypeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
